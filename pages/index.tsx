@@ -11,12 +11,9 @@ const Home: NextPage = () => {
 
         <NavBar/>
         <Main/>
+        <Main/>
 
       </div>
-
-
-
-      
 
     </div>
   )
