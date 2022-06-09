@@ -2,13 +2,13 @@
 
 const NavBar = () => {
     return(
-        <nav className=" flex flex-col items-center bg-zinc-900 rounded-b-md pb-0 md:pb-7">
+        <nav className=" flex flex-col items-center bg-zinc-900 rounded-b-md pb-0 md:pb-7 relative z-10 ">
 
             
 
                 <div className="flex flex-row w-screen max-w-2xl justify-between items-center fixed bg-zinc-900 py-4 opacity-90">
                     <div className="flex flex-row">
-                        <h1 className="font-bold italic hover:ring-2 ring-teal-300 rounded-full transition-all md:px-2 pl-7 mr-5 cursor-default">
+                        <h1 className="font-bold italic hover:ring-2 ring-teal-300 rounded-full transition-all md:px-2 ml-4 md:ml-7 px-2 mr-5 cursor-default">
                             Alwaysjad
                         </h1>
                         <h1 className=" underline-offset-4 decoration-2 hover:font-semibold hover:underline transition-all md:px-2 pl-7 cursor-pointer">
