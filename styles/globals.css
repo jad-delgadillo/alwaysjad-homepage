@@ -3,13 +3,14 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "MPLUSRounded1c-Medium";
+  font-family: "Nunito";
   font-style: normal;
-  font-weight: 100 200 300 400 500 600 700 800 900;
+  font-weight: normal;
   font-display: optional;
-  src: url("/fonts/MPLUSRounded1c-Medium.woff2") format ("woff2");
+  src: url("/public/assets/fonts/nunito-variablefont_wght-webfont.woff2") format
+    ("woff2");
 }
 
 h1 {
-  font-family: MPLUSRounded1c-Medium;
+  font-family: Nunito;
 }
