@@ -14,7 +14,7 @@ const NavBar = () => {
                         </h1>
                         
                         <Link href="/works" >
-                            <a className=" underline-offset-4 decoration-2 decoration-teal-300 hover:underline transition-all md:px-2 pl-7 md:block hidden">
+                            <a className=" underline-offset-4 decoration-2 decoration-teal-300 hover:underline transition-all md:px-2 pl-7 sm:block hidden">
                                 Works
                             </a>
                         </Link>
