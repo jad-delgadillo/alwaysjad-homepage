@@ -33,14 +33,14 @@ const NavBar = () => {
                         </a>
 
                     </div>
-                    <button className="block font-semibold italic p-1 rounded-lg items-center justify-center hover:ring-1 bg-yellow-200 hover:scale-[110%] transition-all md:mr-0 mr-5">
-                        <div className="block w-[25px] h-[25px] hover:scale-[115%] transition-all">
+                    <button className="block font-semibold italic p-1 rounded-lg items-center justify-center hover:ring-1 bg-yellow-200 hover:bg-orange-300 hover:scale-[103%] transition-all md:mr-0 mr-5">
+                        <div className="block w-[25px] h-[25px] p-[10%] transition-all">
 
                             <Image
                             src={"/assets/light.png"}
                             alt=""
-                            width={50}
-                            height={50}
+                            width={20}
+                            height={20}
                             layout="responsive"
                             className="rounded-xl "
                             />
