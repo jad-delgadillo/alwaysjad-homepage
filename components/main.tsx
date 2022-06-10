@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 const Main = () => {
     return(
@@ -30,11 +31,43 @@ const Main = () => {
                         </div>
 
                 </section>
-                            <h1 className="underline-offset-4 underline font-semibold decoration-2 mb-2">Work</h1>
+                            <h1 className="text-md underline-offset-4 underline font-semibold decoration-2 mb-2">Work</h1>
                             <p className="text-justify font-extralight">Jorge is a freelance and a full-stack developer based in Mexico City with a passion for building digital services/stuff he wants.
                                 He has a knack for all things launching products, from planning and designing all the way to solving real-life problems with code. 
                                 When he is not online, he loves writing music.
-                                </p>
+                            </p>
+
+                                <div className="flex flex-col items-center justify-center">
+                                    <button className=" flex flex-col items-center justify-center w-32 m-5 p-2 rounded-xl bg-cyan-400 hover:ring-1 ring-white transition-all text-neutral-100 hover:text-neutral-100 hover:scale-[105%]">
+                                        <Link href={"/portfolio"}>
+                                            <a><h1 className="font-bold">My portfolio</h1></a>
+                                        
+                                        </Link>
+                                    </button>
+
+                                </div>
+
+                            <h1 className=" text-md underline-offset-4 underline font-semibold decoration-2 mb-2">Bio</h1>
+                            
+                            <div className="flex flex-row text-justify font-extralight">
+                                <h2 className="mr-4 font-bold">1996</h2>
+                                <p>Born in Guadalajara, México.</p>
+                            </div>
+                            <div className="flex flex-row text-justify font-extralight">
+                                <h2 className="mr-4 font-bold">2014</h2>
+                                <p>Completed the Master's Program in the Graduate School of Information Science at Nara Institute of Science and Technology.</p>
+                            </div>
+                            <div className="flex flex-row text-justify font-extralight">
+                                <h2 className="mr-4 font-bold">2015</h2>
+                                <p>Worked at Google México</p>
+                            </div>
+                            <div className="flex flex-row text-justify font-extralight">
+                                <h2 className="mr-4 font-bold">2018 to present</h2>
+                                <p>Working as a freelancer.</p>
+                            </div>
+                            <div className="p-4"></div>
+                            <h1 className=" text-md underline-offset-4 underline font-semibold decoration-2 mb-2">I ❤️</h1>
+                            <p className="text-justify font-extralight">Art, Music, Drawing, Playing Guitar, Photography, Leica, Machine Learning.</p>
         </div>
     )
 }

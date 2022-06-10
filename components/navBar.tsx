@@ -42,7 +42,7 @@ const NavBar = () => {
                             width={20}
                             height={20}
                             layout="responsive"
-                            className="rounded-xl "
+                            className="rounded-xl"
                             />
                         </div>
                     </button>
