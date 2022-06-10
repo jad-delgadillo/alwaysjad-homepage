@@ -38,7 +38,7 @@ const Main = () => {
                             </p>
 
                                 <div className="flex flex-col items-center justify-center">
-                                    <button className=" flex flex-col items-center justify-center w-32 m-5 p-2 rounded-xl bg-cyan-400 hover:ring-1 ring-white transition-all text-neutral-100 hover:text-neutral-100 hover:scale-[105%]">
+                                    <button className=" flex flex-col items-center justify-center w-32 m-5 p-2 rounded-xl bg-cyan-500 hover:ring-1 ring-white transition-all text-neutral-100 hover:text-neutral-100 hover:scale-[105%]">
                                         <Link href={"/portfolio"}>
                                             <a><h1 className="font-bold">My portfolio</h1></a>
                                         
