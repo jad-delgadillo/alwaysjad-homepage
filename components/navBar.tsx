@@ -14,13 +14,13 @@ const NavBar = () => {
                         </h1>
                         
                         <Link href="/works" >
-                            <a className=" underline-offset-4 decoration-2 decoration-teal-300 hover:underline transition-all md:px-2 pl-7">
+                            <a className=" underline-offset-4 decoration-2 decoration-teal-300 hover:underline transition-all md:px-2 pl-7 :block hidden">
                                 Works
                             </a>
                         </Link>
 
                         <Link href="/posts">
-                            <a className=" underline-offset-4 mx-4 decoration-2 decoration-teal-300 hover:underline transition-all md:px-2 pl-7 cursor-pointer">
+                            <a className=" underline-offset-4 mx-4 decoration-2 decoration-teal-300 hover:underline transition-all md:px-2 pl-7 sm:block hidden">
                                 Posts
                             </a>
                         </Link>
@@ -28,7 +28,7 @@ const NavBar = () => {
                         
                             
                         
-                        <a className=" underline-offset-4 decoration-2 decoration-teal-300 hover:underline transition-all md:px-2 pl-7 cursor-pointer">
+                        <a className=" underline-offset-4 decoration-2 decoration-teal-300 hover:underline transition-all md:px-2 pl-7 sm:block hidden">
                             Source
                         </a>
 
