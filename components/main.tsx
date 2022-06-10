@@ -8,7 +8,7 @@ const Main = () => {
                 <section className="flex flex-col md:flex-row md:justify-between md:items-center">
                     <div className=" flex flex-col">
                         <h1 className="text-2xl font-semibold">Jorge Delgadillo</h1>
-                        <h2 className="">Digital Craftsman ( Artist / Developer / Designer )</h2>
+                        <h2 className="font-extralight">Digital Craftsman ( Artist / Developer / Designer )</h2>
 
                     </div>
                         <div className="flex flex-col items-center md:mb-5">
@@ -31,7 +31,7 @@ const Main = () => {
 
                 </section>
                             <h1 className="underline-offset-4 underline font-semibold decoration-2 mb-2">Work</h1>
-                            <p className="text-justify">Jorge is a freelance and a full-stack developer based in Mexico City with a passion for building digital services/stuff he wants.
+                            <p className="text-justify font-extralight">Jorge is a freelance and a full-stack developer based in Mexico City with a passion for building digital services/stuff he wants.
                                 He has a knack for all things launching products, from planning and designing all the way to solving real-life problems with code. 
                                 When he is not online, he loves writing music.
                                 </p>
