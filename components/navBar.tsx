@@ -9,9 +9,15 @@ const NavBar = () => {
 
                 <div className="flex flex-row w-screen max-w-2xl justify-between items-center fixed bg-zinc-900 py-4 opacity-90">
                     <div className="flex flex-row">
-                        <h1 className="font-bold italic hover:ring-2 ring-teal-300 rounded-full transition-all hover:scale-[105%] md:px-2 ml-4 md:ml-0 px-2 mr-5 cursor-default">
-                            Alwaysjad
-                        </h1>
+                        <Link href={"/"}>
+                            <a>
+                                <h1 className="font-bold italic hover:ring-2 ring-teal-300 rounded-full transition-all hover:scale-[105%] md:px-2 ml-4 md:ml-0 px-2 mr-5">
+                                    Alwaysjad
+                                </h1>
+
+                            </a>
+                        
+                        </Link>
                         
                         <Link href="/works" >
                             <a className=" underline-offset-4 decoration-2 decoration-teal-300 hover:underline transition-all md:px-2 pl-7 sm:block hidden">
