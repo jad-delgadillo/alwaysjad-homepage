@@ -72,7 +72,20 @@ const Main = () => {
                             <div className="p-4"></div>
                                 <h1 className=" text-md underline-offset-4 underline font-semibold decoration-2 mb-2">On the web</h1>
                                     <div className="flex flex-col font-medium justify-center items-start">
-                                        <button className="text-justify text-cyan-300 hover:bg-cyan-800 p-1 px-2 rounded-lg">@alwaysjad</button>
+                                        <button className=" flex justify-center items-center border text-cyan-300 hover:bg-cyan-800 px-2 rounded-lg">
+                                            <div className="block items-center justify-center w-[3vw]">
+                                                <Image
+                                                src={"/assets/github.png"}
+                                                alt="logo"
+                                                height={15}
+                                                width={15}
+                                                layout="intrinsic"
+                                                className="invert"
+                                                />
+
+                                            </div>
+                                            @jad-delgadillo
+                                        </button>
                                         <button className="text-justify text-cyan-300 hover:bg-cyan-800 p-1 px-2 rounded-lg">@alwaysjad</button>
                                         <button className="text-justify text-cyan-300 hover:bg-cyan-800 p-1 px-2 rounded-lg">@alwaysjad</button>
 
