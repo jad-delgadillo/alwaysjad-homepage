@@ -8,11 +8,11 @@ const NavBar = () => {
     return(
         
 
-            <div className="flex justify-center items-center fixed z-10 ">
+            <div className="flex-shrink-0 justify-center items-center fixed z-10 opacity-90 ">
 
   
 
-                <nav className="block flex-row  justify-between w-screen items-center bg-zinc-900 dark:bg-orange-50/[.70] dark:text-neutral-700 text-slate-300 py-4 opacity-90">
+                <nav className="block flex-row  justify-between w-screen items-center bg-zinc-900 dark:bg-orange-50/[.70] dark:text-neutral-700 text-slate-300 py-4  ">
                     <div className=" flex flex-row justify-between items-center m-auto max-w-2xl">
 
                         <div className="flex flex-row">
