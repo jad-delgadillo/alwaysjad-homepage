@@ -1,8 +1,8 @@
 
 const Posts = () => {
     return(
-        <div>
-            Posts
+        <div className="flex flex-col text-white bg-neutral-900 min-h-screen justify-center items-center">
+            <h1 className="text-2xl">Posts</h1>
         </div>
     )
 }

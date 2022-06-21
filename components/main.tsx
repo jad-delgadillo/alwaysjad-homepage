@@ -5,7 +5,7 @@ import Link from "next/link";
 const Main = () => {
     return(
         <div className="flex flex-col min-h-screen justify-items-start p-7 md:p-0">
-            <h1 className=" flex flex-col p-4 bg-zinc-600 rounded-xl mb-5 md:mb-0 text-center mt-10">Hello, I'm an indie app developer based in México.</h1>
+            <h1 className=" flex flex-col p-4 bg-zinc-600 rounded-xl mb-5 md:mb-0 text-center mt-28 dark:bg-orange-50/[.70]">Hello, I'm an indie app developer based in México.</h1>
                 <section className="flex flex-col md:flex-row md:justify-between md:items-center">
                     <div className=" flex flex-col">
                         <h1 className="text-2xl font-semibold">Jorge Delgadillo</h1>
@@ -13,7 +13,7 @@ const Main = () => {
 
                     </div>
                         <div className="flex flex-col items-center md:mb-5">
-                            <div className="border-white border-2 rounded-full items-center justify-center mt-5 w-[100px] h-[100px] inline-block sticky">
+                            <div className="border-white dark:border-orange-50/[.70] border-2 rounded-full items-center justify-center mt-5 w-[100px] h-[100px] inline-block sticky">
 
                                 <Image
                                 src="/assets/profile-2.jpeg"
@@ -38,9 +38,9 @@ const Main = () => {
                             </p>
 
                                 <div className="flex flex-col items-center justify-center">
-                                    <button className=" flex flex-col items-center justify-center w-32 m-5 p-2 rounded-xl bg-cyan-500 hover:ring-1 ring-white transition-all text-neutral-100 hover:text-neutral-100 hover:scale-[105%]">
+                                    <button className=" flex flex-col items-center justify-center w-36 m-5 p-2 rounded-xl bg-teal-200 hover:bg-teal-200/80 dark:bg-teal-500/80 dark:hover:bg-teal-400 transition-all text-neutral-100 hover:text-neutral-100 hover:scale-[105%]">
                                         <Link href={"/portfolio"}>
-                                            <a><h1 className="font-bold">My portfolio</h1></a>
+                                            <a><h1 className="font-bold text-zinc-900 dark:text-white">My portfolio &#160; &#62; </h1></a>
                                         
                                         </Link>
                                     </button>
@@ -72,7 +72,7 @@ const Main = () => {
                             <div className="p-4"></div>
                                 <h1 className=" text-md underline-offset-4 underline font-semibold decoration-2 mb-2">On the web</h1>
                                     <div className="flex flex-col font-medium justify-center items-start">
-                                        <button className=" flex justify-between border text-cyan-300 hover:bg-cyan-800 px-2 rounded-lg">
+                                        <button className=" flex justify-between text-cyan-300 hover:bg-cyan-800 dark:text-teal-700 dark:hover:bg-teal-100 px-4 py-2 rounded-lg">
                                             <div className="flex items-center justify-center w-[15px] mr-3">
                                                 <Image
                                                 src={"/assets/github.png"}
@@ -80,14 +80,14 @@ const Main = () => {
                                                 height={15}
                                                 width={15}
                                                 layout="intrinsic"
-                                                className="invert"
+                                                className="invert dark:invert-0"
                                                 />
 
                                             </div>
                                             @jad-delgadillo
                                         </button>
-                                        <button className="text-justify text-cyan-300 hover:bg-cyan-800 p-1 px-2 rounded-lg">@alwaysjad</button>
-                                        <button className="text-justify text-cyan-300 hover:bg-cyan-800 p-1 px-2 rounded-lg">@alwaysjad</button>
+                                        <button className="text-justify text-cyan-300 hover:bg-cyan-800 dark:text-teal-700 dark:hover:bg-teal-100 p-1 px-4 py-2 rounded-lg">@alwaysjad</button>
+                                        <button className="text-justify text-cyan-300 hover:bg-cyan-800 dark:text-teal-700 dark:hover:bg-teal-100 p-1 px-4 py-2 rounded-lg">@alwaysjad</button>
 
                                     </div>
         </div>
