@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Nunito";
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: normal;
   src: url("/public/assets/fonts/nunito-variablefont_wght-webfont.woff2") format
@@ -11,5 +11,5 @@
 }
 
 h1 {
-  font-family: Nunito;
+  font-family: "Nunito", sans-serif;
 }
