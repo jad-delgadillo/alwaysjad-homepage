@@ -32,11 +32,11 @@ const NavBar = () => {
                                 </a>
                             </Link>
 
-                            <Link href="/posts">
+                            {/* <Link href="/posts">
                                 <a className=" underline-offset-4 mx-4 decoration-2  hover:text-white dark:hover:text-black decoration-teal-300 hover:underline transition-all md:px-2 pl-7 sm:block hidden">
                                     Posts
                                 </a>
-                            </Link>
+                            </Link> */}
                             
                             
                                 
