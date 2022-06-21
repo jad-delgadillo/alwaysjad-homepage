@@ -5,7 +5,7 @@ import Link from "next/link";
 const Main = () => {
     return(
         <div className="flex flex-col min-h-screen justify-items-start p-7 md:p-0">
-            <h1 className=" flex flex-col p-4 bg-zinc-600 rounded-xl mb-5 md:mb-0 text-center mt-28 dark:bg-orange-50/[.70]">Hello, I'm an indie app developer based in México.</h1>
+            <h1 className=" flex flex-col p-4 bg-zinc-600 rounded-xl mb-5 md:mb-0 text-center md:mt-28 mt-10 dark:bg-orange-50/[.70]">Hello, I'm an indie app developer based in México.</h1>
                 <section className="flex flex-col md:flex-row md:justify-between md:items-center">
                     <div className=" flex flex-col">
                         <h1 className="text-2xl font-semibold">Jorge Delgadillo</h1>
